@@ -2,27 +2,27 @@ import { GraduationCap } from 'lucide-react';
 
 export default function About() {
   return (
-    <section id="about" className="mb-16">
-      <h2 className="text-3xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-gray-300">
+    <section id="about" className="mb-12 md:mb-16">
+      <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4 md:mb-6 pb-2 md:pb-3 border-b-2 border-gray-300">
         About
       </h2>
       
       <div className="prose max-w-none">
-        <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+        <p className="text-base md:text-lg text-gray-700 mb-4 md:mb-6 leading-relaxed">
           I am a Materials Science and Engineering graduate student at Carnegie Mellon University 
           with a strong passion for polymer science, computational materials research, and data-driven 
           innovation. My research focuses on developing machine learning models to predict mechanical 
           properties of advanced materials and investigating self-healing hybrid materials.
         </p>
         
-        <p className="text-lg text-gray-700 mb-8 leading-relaxed">
+        <p className="text-base md:text-lg text-gray-700 mb-6 md:mb-8 leading-relaxed">
           With hands-on experience in polymer synthesis, characterization, and computational analysis, 
           I bridge the gap between theoretical research and practical applications in materials engineering.
         </p>
 
-        <div className="space-y-6">
-          <h3 className="text-2xl font-semibold text-gray-900 flex items-center gap-2">
-            <GraduationCap size={28} className="text-red-700" />
+        <div className="space-y-4 md:space-y-6">
+          <h3 className="text-xl md:text-2xl font-semibold text-gray-900 flex items-center gap-2">
+            <GraduationCap size={24} className="text-red-700 md:w-7 md:h-7" />
             Education
           </h3>
 
@@ -31,7 +31,7 @@ export default function About() {
               <h4 className="text-xl font-semibold text-gray-900">
                 Carnegie Mellon University
               </h4>
-              <span className="text-sm text-gray-600">Aug 2024 - May 2026</span>
+              <span className="text-xs md:text-sm text-gray-600">Aug 2024 - May 2026</span>
             </div>
             <p className="text-red-700 font-medium mb-2">
               M.S. in Materials Science

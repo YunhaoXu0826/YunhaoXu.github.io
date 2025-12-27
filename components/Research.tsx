@@ -44,22 +44,22 @@ export default function Research() {
   ];
 
   return (
-    <section id="research" className="mb-16">
-      <h2 className="text-3xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-gray-300">
+    <section id="research" className="mb-12 md:mb-16">
+      <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4 md:mb-6 pb-2 md:pb-3 border-b-2 border-gray-300">
         Research & Projects
       </h2>
 
-      <div className="space-y-8">
+      <div className="space-y-6 md:space-y-8">
         {projects.map((project, index) => (
           <div
             key={index}
             className="bg-white border border-gray-300 rounded-lg overflow-hidden hover:shadow-lg transition-shadow"
           >
-            <div className="bg-gradient-to-r from-red-50 to-red-100 p-6 border-b border-gray-300">
-              <h3 className="text-2xl font-semibold text-gray-900 mb-3">
+            <div className="bg-gradient-to-r from-red-50 to-red-100 p-4 md:p-6 border-b border-gray-300">
+              <h3 className="text-lg md:text-2xl font-semibold text-gray-900 mb-2 md:mb-3 leading-snug">
                 {project.title}
               </h3>
-              <div className="flex flex-wrap gap-4 text-sm text-gray-700">
+              <div className="flex flex-wrap gap-2 md:gap-4 text-xs md:text-sm text-gray-700">
                 <span className="flex items-center gap-1">
                   <Building size={14} />
                   {project.institution}
@@ -71,21 +71,21 @@ export default function Research() {
               </div>
             </div>
 
-            <div className="p-6">
-              <p className="text-gray-700 mb-4 leading-relaxed">
+            <div className="p-4 md:p-6">
+              <p className="text-sm md:text-base text-gray-700 mb-3 md:mb-4 leading-relaxed">
                 {project.description}
               </p>
 
-              <div className="mb-4">
-                <h4 className="text-lg font-semibold text-gray-900 mb-2 flex items-center gap-2">
-                  <FlaskConical size={18} className="text-red-700" />
+              <div className="mb-3 md:mb-4">
+                <h4 className="text-base md:text-lg font-semibold text-gray-900 mb-2 flex items-center gap-2">
+                  <FlaskConical size={16} className="text-red-700 md:w-[18px] md:h-[18px]" />
                   Key Highlights
                 </h4>
                 <ul className="space-y-2">
                   {project.highlights.map((highlight, idx) => (
                     <li
                       key={idx}
-                      className="text-gray-700 pl-4 relative before:content-['→'] before:absolute before:left-0 before:text-red-700"
+                      className="text-gray-700 text-sm md:text-base pl-5 relative before:content-['→'] before:absolute before:left-0 before:text-red-700 before:font-bold"
                     >
                       {highlight}
                     </li>
@@ -93,11 +93,11 @@ export default function Research() {
                 </ul>
               </div>
 
-              <div className="flex flex-wrap gap-2">
+              <div className="flex flex-wrap gap-1.5 md:gap-2">
                 {project.tags.map((tag, idx) => (
                   <span
                     key={idx}
-                    className="px-3 py-1 bg-red-100 text-red-800 text-xs font-medium rounded-full"
+                    className="px-2 md:px-3 py-0.5 md:py-1 bg-red-100 text-red-800 text-xs font-medium rounded-full"
                   >
                     {tag}
                   </span>

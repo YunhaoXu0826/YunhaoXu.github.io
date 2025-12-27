@@ -70,16 +70,16 @@ export default function Sidebar({ activeSection, onNavigate }: SidebarProps) {
 
           {/* Name and Title */}
           <div className="text-center mb-6">
-            <h1 className="text-2xl font-bold text-gray-900 mb-2">
+            <h1 className="text-xl md:text-2xl font-bold text-gray-900 mb-2">
               Yunhao (Henry) Xu
             </h1>
-            <p className="text-sm text-gray-600 leading-relaxed">
+            <p className="text-xs md:text-sm text-gray-600 leading-relaxed px-2">
               M.S. in Materials Science @ Carnegie Mellon University
             </p>
           </div>
 
           {/* Location */}
-          <div className="flex items-center justify-center text-sm text-gray-600 mb-6">
+          <div className="flex items-center justify-center text-xs md:text-sm text-gray-600 mb-6">
             <MapPin size={16} className="mr-2" />
             <span>Pittsburgh, PA</span>
           </div>
@@ -112,7 +112,7 @@ export default function Sidebar({ activeSection, onNavigate }: SidebarProps) {
                   <button
                     onClick={() => handleNavClick(item.id)}
                     className={`
-                      w-full text-left px-4 py-2 rounded-md transition-colors
+                      w-full text-left px-4 py-2 rounded-md transition-colors text-sm md:text-base
                       ${
                         activeSection === item.id
                           ? 'bg-red-700 text-white font-semibold'

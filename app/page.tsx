@@ -44,15 +44,15 @@ export default function Home() {
       <Sidebar activeSection={activeSection} onNavigate={handleNavigate} />
       
       <main className="flex-1 lg:ml-72">
-        <div className="max-w-4xl mx-auto px-6 py-12 lg:px-16 lg:py-16">
+        <div className="max-w-4xl mx-auto px-4 py-8 sm:px-6 sm:py-10 md:py-12 lg:px-16 lg:py-16">
           <About />
           <Experience />
           <Research />
           <Skills />
           
-          <footer className="mt-16 pt-8 border-t border-gray-300 text-center text-sm text-gray-600">
+          <footer className="mt-12 md:mt-16 pt-6 md:pt-8 border-t border-gray-300 text-center text-xs md:text-sm text-gray-600">
             <p>© {new Date().getFullYear()} Yunhao (Henry) Xu. All rights reserved.</p>
-            <p className="mt-2">Built with Next.js, Tailwind CSS, and Lucide React</p>
+            <p className="mt-1 md:mt-2">Built with Next.js, Tailwind CSS, and Lucide React</p>
           </footer>
         </div>
       </main>
