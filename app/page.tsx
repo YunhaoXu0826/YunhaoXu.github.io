@@ -44,7 +44,7 @@ export default function Home() {
       <Sidebar activeSection={activeSection} onNavigate={handleNavigate} />
       
       <main className="flex-1 lg:ml-72">
-        <div className="max-w-5xl mx-auto px-6 py-12 lg:px-12 lg:py-16">
+        <div className="max-w-5xl mx-auto px-6 py-12 lg:px-8 lg:py-16">
           <About />
           <Experience />
           <Research />
