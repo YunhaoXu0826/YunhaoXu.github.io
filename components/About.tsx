@@ -26,12 +26,14 @@ export default function About() {
             Education
           </h3>
 
-          <div className="bg-gray-50 p-6 rounded-lg border border-gray-200">
-            <div className="flex justify-between items-start mb-2">
-              <h4 className="text-xl font-semibold text-gray-900">
-                Carnegie Mellon University
-              </h4>
-              <span className="text-xs md:text-sm text-gray-600">Aug 2024 - May 2026</span>
+          <div className="bg-gray-50 p-4 md:p-6 rounded-lg border border-gray-200">
+            <div className="mb-3">
+              <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-1 mb-1">
+                <h4 className="text-lg md:text-xl font-semibold text-gray-900">
+                  Carnegie Mellon University
+                </h4>
+                <span className="text-xs md:text-sm text-gray-600 sm:flex-shrink-0">Aug 2024 - May 2026</span>
+              </div>
             </div>
             <p className="text-red-700 font-medium mb-2">
               M.S. in Materials Science
@@ -43,12 +45,14 @@ export default function About() {
             </p>
           </div>
 
-          <div className="bg-gray-50 p-6 rounded-lg border border-gray-200">
-            <div className="flex justify-between items-start mb-2">
-              <h4 className="text-xl font-semibold text-gray-900">
-                Shanghai Institute of Technology
-              </h4>
-              <span className="text-sm text-gray-600">Sep 2020 - Jun 2024</span>
+          <div className="bg-gray-50 p-4 md:p-6 rounded-lg border border-gray-200">
+            <div className="mb-3">
+              <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-1 mb-1">
+                <h4 className="text-lg md:text-xl font-semibold text-gray-900">
+                  Shanghai Institute of Technology
+                </h4>
+                <span className="text-xs md:text-sm text-gray-600 sm:flex-shrink-0">Sep 2020 - Jun 2024</span>
+              </div>
             </div>
             <p className="text-red-700 font-medium mb-2">
               B.Eng. in Materials Science and Engineering
