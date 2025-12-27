@@ -88,7 +88,7 @@ export default function Sidebar({ activeSection, onNavigate }: SidebarProps) {
           <div className="flex justify-center gap-4 mb-8 pb-8 border-b border-gray-300">
             <a
               href="mailto:xyh18301778938@gmail.com"
-              className="p-2 text-gray-700 hover:text-blue-700 hover:bg-gray-200 rounded-full transition-colors"
+              className="p-2 text-gray-700 hover:text-red-700 hover:bg-gray-200 rounded-full transition-colors"
               aria-label="Email"
             >
               <Mail size={20} />
@@ -97,7 +97,7 @@ export default function Sidebar({ activeSection, onNavigate }: SidebarProps) {
               href="https://www.linkedin.com/in/yunhao-henry-xu"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-2 text-gray-700 hover:text-blue-700 hover:bg-gray-200 rounded-full transition-colors"
+              className="p-2 text-gray-700 hover:text-red-700 hover:bg-gray-200 rounded-full transition-colors"
               aria-label="LinkedIn"
             >
               <Linkedin size={20} />
@@ -115,7 +115,7 @@ export default function Sidebar({ activeSection, onNavigate }: SidebarProps) {
                       w-full text-left px-4 py-2 rounded-md transition-colors
                       ${
                         activeSection === item.id
-                          ? 'bg-blue-700 text-white font-semibold'
+                          ? 'bg-red-700 text-white font-semibold'
                           : 'text-gray-700 hover:bg-gray-200'
                       }
                     `}

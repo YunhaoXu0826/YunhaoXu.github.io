@@ -4,7 +4,7 @@ export default function Skills() {
   const skillCategories = [
     {
       title: 'Programming & Data',
-      icon: <Code size={24} className="text-blue-700" />,
+      icon: <Code size={24} className="text-red-700" />,
       skills: [
         'Python (Pandas, NumPy, Matplotlib)',
         'SQL',
@@ -18,7 +18,7 @@ export default function Skills() {
     },
     {
       title: 'Materials Science',
-      icon: <Microscope size={24} className="text-blue-700" />,
+      icon: <Microscope size={24} className="text-red-700" />,
       skills: [
         'Polymer Synthesis',
         'Characterization (TEM, SEM, DSC)',
@@ -30,7 +30,7 @@ export default function Skills() {
     },
     {
       title: 'Certifications',
-      icon: <Award size={24} className="text-blue-700" />,
+      icon: <Award size={24} className="text-red-700" />,
       skills: [
         'Six Sigma White Belt',
         'Design of Experiments (JMP)',
@@ -62,7 +62,7 @@ export default function Skills() {
               {category.skills.map((skill, idx) => (
                 <li
                   key={idx}
-                  className="text-gray-700 pl-4 relative before:content-['▪'] before:absolute before:left-0 before:text-blue-700"
+                  className="text-gray-700 pl-4 relative before:content-['▪'] before:absolute before:left-0 before:text-red-700"
                 >
                   {skill}
                 </li>

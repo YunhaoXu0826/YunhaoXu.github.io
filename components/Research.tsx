@@ -55,7 +55,7 @@ export default function Research() {
             key={index}
             className="bg-white border border-gray-300 rounded-lg overflow-hidden hover:shadow-lg transition-shadow"
           >
-            <div className="bg-gradient-to-r from-blue-50 to-blue-100 p-6 border-b border-gray-300">
+            <div className="bg-gradient-to-r from-red-50 to-red-100 p-6 border-b border-gray-300">
               <h3 className="text-2xl font-semibold text-gray-900 mb-3">
                 {project.title}
               </h3>
@@ -78,14 +78,14 @@ export default function Research() {
 
               <div className="mb-4">
                 <h4 className="text-lg font-semibold text-gray-900 mb-2 flex items-center gap-2">
-                  <FlaskConical size={18} className="text-blue-700" />
+                  <FlaskConical size={18} className="text-red-700" />
                   Key Highlights
                 </h4>
                 <ul className="space-y-2">
                   {project.highlights.map((highlight, idx) => (
                     <li
                       key={idx}
-                      className="text-gray-700 pl-4 relative before:content-['→'] before:absolute before:left-0 before:text-blue-700"
+                      className="text-gray-700 pl-4 relative before:content-['→'] before:absolute before:left-0 before:text-red-700"
                     >
                       {highlight}
                     </li>
@@ -97,7 +97,7 @@ export default function Research() {
                 {project.tags.map((tag, idx) => (
                   <span
                     key={idx}
-                    className="px-3 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded-full"
+                    className="px-3 py-1 bg-red-100 text-red-800 text-xs font-medium rounded-full"
                   >
                     {tag}
                   </span>

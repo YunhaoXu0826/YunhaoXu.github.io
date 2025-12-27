@@ -41,7 +41,7 @@ export default function Experience() {
               <h3 className="text-2xl font-semibold text-gray-900 mb-2">
                 {exp.role}
               </h3>
-              <div className="flex items-center gap-4 text-blue-700 font-medium mb-2">
+              <div className="flex items-center gap-4 text-red-700 font-medium mb-2">
                 <span className="flex items-center gap-1">
                   <Briefcase size={16} />
                   {exp.company}
@@ -61,7 +61,7 @@ export default function Experience() {
 
             <ul className="space-y-2">
               {exp.responsibilities.map((resp, idx) => (
-                <li key={idx} className="text-gray-700 pl-4 relative before:content-['•'] before:absolute before:left-0 before:text-blue-700">
+                <li key={idx} className="text-gray-700 pl-4 relative before:content-['•'] before:absolute before:left-0 before:text-red-700">
                   {resp}
                 </li>
               ))}

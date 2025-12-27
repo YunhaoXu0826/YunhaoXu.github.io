@@ -22,7 +22,7 @@ export default function About() {
 
         <div className="space-y-6">
           <h3 className="text-2xl font-semibold text-gray-900 flex items-center gap-2">
-            <GraduationCap size={28} className="text-blue-700" />
+            <GraduationCap size={28} className="text-red-700" />
             Education
           </h3>
 
@@ -33,7 +33,7 @@ export default function About() {
               </h4>
               <span className="text-sm text-gray-600">Aug 2024 - May 2026</span>
             </div>
-            <p className="text-blue-700 font-medium mb-2">
+            <p className="text-red-700 font-medium mb-2">
               M.S. in Materials Science and Engineering
             </p>
             <p className="text-gray-700 mb-2">GPA: 3.9/4.0</p>
@@ -50,7 +50,7 @@ export default function About() {
               </h4>
               <span className="text-sm text-gray-600">Sep 2020 - Jun 2024</span>
             </div>
-            <p className="text-blue-700 font-medium mb-2">
+            <p className="text-red-700 font-medium mb-2">
               B.Eng. in Materials Science and Engineering
             </p>
             <p className="text-gray-700 mb-2">GPA: 3.9/5.0</p>

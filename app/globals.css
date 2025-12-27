@@ -5,7 +5,9 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --accent: #2c5282;
+  --accent: #C41230;
+  --accent-hover: #A01028;
+  --accent-light: #FDEEF0;
   --sidebar-bg: #f8f9fa;
   --border-color: #e5e7eb;
 }
