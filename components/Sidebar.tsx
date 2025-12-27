@@ -87,7 +87,7 @@ export default function Sidebar({ activeSection, onNavigate }: SidebarProps) {
           {/* Social Links */}
           <div className="flex justify-center gap-4 mb-8 pb-8 border-b border-gray-300">
             <a
-              href="mailto:xyh18301778938@gmail.com"
+              href="mailto:yunhaox@andrew.cmu.edu"
               className="p-2 text-gray-700 hover:text-red-700 hover:bg-gray-200 rounded-full transition-colors"
               aria-label="Email"
             >
@@ -129,7 +129,7 @@ export default function Sidebar({ activeSection, onNavigate }: SidebarProps) {
 
           {/* Contact Info */}
           <div className="mt-8 pt-8 border-t border-gray-300 text-xs text-gray-600">
-            <p className="mb-1">xyh18301778938@gmail.com</p>
+            <p className="mb-1">yunhaox [at] andrew [dot] cmu [dot] edu</p>
             <p>412-450-2179</p>
           </div>
         </div>
